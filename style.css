@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 73.8vh; /* 20% Viewport height for menu, 50% for content */
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  font-size: 18px;
+  font-weight: 400;
+  color: #e5e7eb;
+}
+
+.menu-items {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-items li {
+  padding: 25px;
+}
+
+.menu .logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.main-content {
+  display: flex;
+  padding-top: 10vw;
+  justify-content: space-around;
+}
+
+.main-left {
+  flex-basis: 25vw;
+  height: 25vh;
+  font-size: 18px;
+  font-weight: 400;
+  color: #e5e7eb;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.call-to-action {
+  width: 125px;
+  height: 35px;
+  margin-top: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-color: transparent;
+}
+
+.main-right {
+  flex-basis: 30vw;
+  height: 25vh;
+}
+
+.content {
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.content-articles {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1f2937;
+  font-weight: 500;
+  margin-bottom: 200px;
+}
+
+.content-articles .articles {
+  height: 200px;
+  padding: 40px;
+  width: 15vw;
+}
+
+.content-articles .articles div {
+  height: 150px;
+  border: #3882f6 4px solid;
+  border-radius: 10%;
+}
+
+.content-articles .articles p {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  height: 400px;
+  padding: 100px;
+}
+
+.quote div {
+  margin: auto;
+  width: 50vw;
+}
+
+.quote p {
+  text-align: center;
+}
+
+.quote .cite {
+  text-align: end;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 10;
+  height: 10vh;
+  padding: 4vh;
+  text-align: center;
+}
