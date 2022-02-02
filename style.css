@@ -60,7 +60,7 @@
   color: #f9faf8;
 }
 
-.call-to-action {
+.cta-btn {
   width: 125px;
   height: 35px;
   margin-top: 15px;
@@ -135,6 +135,38 @@
   text-align: end;
 }
 
+.cta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vw;
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 5vw 15vw;
+  border-radius: 15px;
+}
+
+.cta p {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cta p span {
+  font-size: 18px;
+}
+
+.cta .cta-btn-2 {
+  width: 125px;
+  height: 35px;
+  margin-top: 15px;
+  border: white 2px solid;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f9faf8;
+  background-color: transparent;
+}
+
 .footer {
   background-color: #1f2937;
   color: #f9faf8;
@@ -143,4 +175,12 @@
   height: 10vh;
   padding: 4vh;
   text-align: center;
+}
+
+.footer a {
+  color: #f9faf8;
+  transition: 0.3s;
+}
+.footer a:hover {
+  color: #a7a7a7;
 }
